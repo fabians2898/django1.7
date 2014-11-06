@@ -1,0 +1,9 @@
+	<meta charset="UTF-8">
+	<title>Listado de Articulos, yeah putos!!!!!!!!</title>
+ 
+ 
+	<h1>Listado de Articulos</h1>
+	{% for articulo in articulos %}
+		<h2>{{ articulo.titulo }}</h2>
+		<div>{{ articulo.contenido }}</div>
+	{% endfor %}
